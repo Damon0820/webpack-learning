@@ -1,0 +1,24 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "webpack从简到深，一步步实战代码例子",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo1": "webpack --config demo/demo1/webpack.config.js --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Damon0820/webpack-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Damon0820/webpack-learning/issues"
+  },
+  "homepage": "https://github.com/Damon0820/webpack-learning#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
