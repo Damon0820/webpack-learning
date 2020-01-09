@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "demo1": "webpack --config demo/demo1/webpack.config.js --progress",
     "demo2": "webpack --config demo/demo2/webpack.config.js --progress",
-    "demo3": "webpack --config demo/demo3/webpack.config.js --progress"
+    "demo3": "webpack --config demo/demo3/webpack.config.js --progress",
+    "demo4": "cross-env NODE_ENV=production webpack --config demo/demo4/webpack.config.js --progress"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/Damon0820/webpack-learning#readme",
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
