@@ -9,7 +9,8 @@
     "demo2": "webpack --config demo/demo2/webpack.config.js --progress",
     "demo3": "webpack --config demo/demo3-htmlWebpackPlugin1/webpack.config.js --progress",
     "demo4": "webpack --config demo/demo4-htmlWebpackPlugin2/webpack.config.js --progress",
-    "demo5": "webpack --config demo/demo5-htmlWebpackPlugin3/webpack.config.js --progress"
+    "demo5": "webpack --config demo/demo5-htmlWebpackPlugin3/webpack.config.js --progress",
+    "demo6": "webpack --config demo/demo6-styleLoader1/webpack.config.js --progress"
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,14 @@
   },
   "homepage": "https://github.com/Damon0820/webpack-learning#readme",
   "devDependencies": {
+    "autoprefixer": "^9.7.3",
     "cross-env": "^6.0.3",
+    "css-loader": "^3.4.1",
     "html-webpack-plugin": "^3.2.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-url": "^8.0.0",
+    "style-loader": "^1.1.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   }
