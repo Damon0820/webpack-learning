@@ -7,8 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "demo1": "webpack --config demo/demo1/webpack.config.js --progress",
     "demo2": "webpack --config demo/demo2/webpack.config.js --progress",
-    "demo3": "webpack --config demo/demo3/webpack.config.js --progress",
-    "demo4": "cross-env NODE_ENV=production webpack --config demo/demo4/webpack.config.js --progress"
+    "demo3": "webpack --config demo/demo3-htmlWebpackPlugin1/webpack.config.js --progress",
+    "demo4": "webpack --config demo/demo4-htmlWebpackPlugin2/webpack.config.js --progress",
+    "demo5": "webpack --config demo/demo5-htmlWebpackPlugin3/webpack.config.js --progress"
   },
   "repository": {
     "type": "git",
