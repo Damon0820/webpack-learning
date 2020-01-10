@@ -1,4 +1,5 @@
 import './index.css'
+import './index.less'
 import css from './index.css'
 // import template from './index.html'
 
