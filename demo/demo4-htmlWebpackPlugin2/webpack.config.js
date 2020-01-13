@@ -6,7 +6,7 @@ function resolvePath(dir) {
 }
 
 module.exports = {
-	mode: 'development',
+	mode: 'none',
 	entry: {
 		// main: './src/main.js'
 		main: resolvePath('./src/main.js'),
