@@ -1,0 +1,9 @@
+html, body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	color: #f99;
+	display: flex;
+}

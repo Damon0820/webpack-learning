@@ -11,7 +11,8 @@
     "demo4": "webpack --config demo/demo4-htmlWebpackPlugin2/webpack.config.js --progress",
     "demo5": "webpack --config demo/demo5-htmlWebpackPlugin3/webpack.config.js --progress",
     "demo6": "webpack --config demo/demo6-styleLoaders1/webpack.config.js --progress",
-    "demo7": "webpack --config demo/demo7-urlLoader/webpack.config.js --progress"
+    "demo7": "webpack --config demo/demo7-urlLoader/webpack.config.js --progress",
+    "demo8": "webpack --config demo/demo8-babelLoader/webpack.config.js --progress"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,11 @@
   },
   "homepage": "https://github.com/Damon0820/webpack-learning#readme",
   "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-transform-runtime": "^7.8.0",
+    "@babel/preset-env": "^7.8.2",
     "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
     "cross-env": "^6.0.3",
     "css-loader": "^3.4.1",
     "file-loader": "^5.0.2",
