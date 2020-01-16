@@ -12,7 +12,8 @@
     "demo5": "webpack --config demo/demo5-htmlWebpackPlugin3/webpack.config.js --progress",
     "demo6": "webpack --config demo/demo6-styleLoaders1/webpack.config.js --progress",
     "demo7": "webpack --config demo/demo7-urlLoader/webpack.config.js --progress",
-    "demo8": "webpack --config demo/demo8-babelLoader/webpack.config.js --progress"
+    "demo8": "webpack --config demo/demo8-babelLoader/webpack.config.js --progress",
+    "demo9": "webpack --config demo/demo9-miniCssExtractPlugin/webpack.config.js --progress"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "html-webpack-plugin": "^3.2.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-url": "^8.0.0",
