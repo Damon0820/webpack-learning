@@ -46,9 +46,9 @@ function generateLoaders(loader, loaderOptions) {
 		})
 	}
 	if (devMode) {
-		return [extractLoader, ...loaders]
-	} else {
 		return ['style-loader', ...loaders]
+	} else {
+		return [extractLoader, ...loaders]
 	}
 }
 

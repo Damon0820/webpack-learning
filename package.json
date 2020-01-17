@@ -15,7 +15,7 @@
     "demo8": "webpack --config demo/demo8-babelLoader/webpack.config.js --progress",
     "demo9": "webpack --config demo/demo9-miniCssExtractPlugin/webpack.config.js --progress",
     "demo10:dev": "webpack-dev-server --config demo/demo10-devServer/webpack.dev.config.js --progress",
-    "demo10:prod": "webpack --config demo/demo10-devServer/webpack.prod.config.js --progress cross-env NODE_ENV=production"
+    "demo10:prod": "cross-env NODE_ENV=production webpack --config demo/demo10-devServer/webpack.prod.config.js --progress"
   },
   "repository": {
     "type": "git",
