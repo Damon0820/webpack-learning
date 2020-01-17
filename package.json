@@ -17,7 +17,9 @@
     "demo10:dev": "webpack-dev-server --config demo/demo10-devServer/webpack.dev.config.js --progress",
     "demo10:prod": "cross-env NODE_ENV=production webpack --config demo/demo10-devServer/webpack.prod.config.js --progress",
     "demo11:dev": "webpack-dev-server --config demo/demo11-prodOptimize/webpack.dev.config.js --progress",
-    "demo11:prod": "cross-env NODE_ENV=production webpack --config demo/demo11-prodOptimize/webpack.prod.config.js --progress"
+    "demo11:prod": "cross-env NODE_ENV=production webpack --config demo/demo11-prodOptimize/webpack.prod.config.js --progress",
+    "demo12:dev": "webpack-dev-server --config demo/demo12-vueLoader/webpack.dev.config.js --progress",
+    "demo12:prod": "cross-env NODE_ENV=production webpack --config demo/demo12-vueLoader/webpack.prod.config.js --progress"
   },
   "repository": {
     "type": "git",
@@ -51,9 +53,14 @@
     "style-loader": "^1.1.2",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^3.0.0",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
   }
 }
