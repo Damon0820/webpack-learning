@@ -19,7 +19,9 @@
     "demo11:dev": "webpack-dev-server --config demo/demo11-prodOptimize/webpack.dev.config.js --progress",
     "demo11:prod": "cross-env NODE_ENV=production webpack --config demo/demo11-prodOptimize/webpack.prod.config.js --progress",
     "demo12:dev": "webpack-dev-server --config demo/demo12-vueLoader/webpack.dev.config.js --progress",
-    "demo12:prod": "cross-env NODE_ENV=production webpack --config demo/demo12-vueLoader/webpack.prod.config.js --progress"
+    "demo12:prod": "cross-env NODE_ENV=production webpack --config demo/demo12-vueLoader/webpack.prod.config.js --progress",
+    "demo13:dev": "webpack-dev-server --config demo/demo13/webpack.dev.config.js --progress",
+    "demo13:prod": "cross-env NODE_ENV=production webpack --config demo/demo13/webpack.prod.config.js --progress"
   },
   "repository": {
     "type": "git",
