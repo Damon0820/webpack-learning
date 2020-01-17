@@ -15,7 +15,9 @@
     "demo8": "webpack --config demo/demo8-babelLoader/webpack.config.js --progress",
     "demo9": "webpack --config demo/demo9-miniCssExtractPlugin/webpack.config.js --progress",
     "demo10:dev": "webpack-dev-server --config demo/demo10-devServer/webpack.dev.config.js --progress",
-    "demo10:prod": "cross-env NODE_ENV=production webpack --config demo/demo10-devServer/webpack.prod.config.js --progress"
+    "demo10:prod": "cross-env NODE_ENV=production webpack --config demo/demo10-devServer/webpack.prod.config.js --progress",
+    "demo11:dev": "webpack-dev-server --config demo/demo11-prodOptimize/webpack.dev.config.js --progress",
+    "demo11:prod": "cross-env NODE_ENV=production webpack --config demo/demo11-prodOptimize/webpack.prod.config.js --progress"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,8 @@
     "@babel/preset-env": "^7.8.2",
     "autoprefixer": "^9.7.3",
     "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
     "cross-env": "^6.0.3",
     "css-loader": "^3.4.1",
     "file-loader": "^5.0.2",
@@ -40,10 +44,12 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-url": "^8.0.0",
     "style-loader": "^1.1.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^3.0.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
