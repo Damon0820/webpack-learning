@@ -5,15 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "demo1": "webpack --config demo/demo1/webpack.config.js --progress",
-    "demo2": "webpack --config demo/demo2/webpack.config.js --progress",
+    "demo1": "webpack --config demo/demo1-initWebpack/webpack.config.js --progress",
+    "demo2": "webpack --config demo/demo2-multipleEntry/webpack.config.js --progress",
     "demo3": "webpack --config demo/demo3-htmlWebpackPlugin1/webpack.config.js --progress",
     "demo4": "webpack --config demo/demo4-htmlWebpackPlugin2/webpack.config.js --progress",
     "demo5": "webpack --config demo/demo5-htmlWebpackPlugin3/webpack.config.js --progress",
     "demo6": "webpack --config demo/demo6-styleLoaders1/webpack.config.js --progress",
     "demo7": "webpack --config demo/demo7-urlLoader/webpack.config.js --progress",
     "demo8": "webpack --config demo/demo8-babelLoader/webpack.config.js --progress",
-    "demo9": "webpack --config demo/demo9-miniCssExtractPlugin/webpack.config.js --progress"
+    "demo9": "webpack --config demo/demo9-miniCssExtractPlugin/webpack.config.js --progress",
+    "demo10:dev": "webpack-dev-server --config demo/demo10-devServer/webpack.dev.config.js --progress",
+    "demo10:prod": "webpack --config demo/demo10-devServer/webpack.prod.config.js --progress cross-env NODE_ENV=production"
   },
   "repository": {
     "type": "git",
@@ -44,6 +46,8 @@
     "style-loader": "^1.1.2",
     "url-loader": "^3.0.0",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2"
   }
 }
